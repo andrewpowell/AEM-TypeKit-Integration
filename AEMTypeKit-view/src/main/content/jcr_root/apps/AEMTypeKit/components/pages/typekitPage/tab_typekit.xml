@@ -1,0 +1,28 @@
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Widget"
+          title="I Am Amway Options"
+          xtype="dialogfieldset">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <typekit
+            jcr:primaryType="cq:Widget"
+            collapsed="{Boolean}true"
+            collapsible="{Boolean}true"
+            title="TypeKit"
+            xtype="dialogfieldset">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <useTypeKit
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enable TypeKit"
+                    name="./enableTypeKit"
+                    type="checkbox"
+                    xtype="selection"/>
+                <typeKitId
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Typekit Kit ID"
+                    name="./typeKitId"
+                    xtype="textfield"/>
+            </items>
+    </items>
+</jcr:root>
