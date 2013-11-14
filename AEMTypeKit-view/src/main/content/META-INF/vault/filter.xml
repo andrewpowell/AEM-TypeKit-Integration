@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/AEMTypeKit">
+        <exclude pattern="/apps/AEMTypeKit/install.*"/>
+        <exclude pattern="/apps/AEMTypeKit/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/AEMTypeKit"/>
+	<filter root="/etc/designs/AEMTypeKit">
+        <exclude pattern="/etc/designs/AEMTypeKit/jcr:content.*"/>
+    </filter>
+</workspaceFilter>
