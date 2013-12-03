@@ -1,6 +1,7 @@
 <%--
-TypeKit Integration
-this REALLY should be done in the header
+TypeKit Integration -- This component is used in headlibs.jsp file of the TypeKitPage component.  It can be used on its
+own in your own page components as well.  If you do not use the TypeKitPage, you need the properties "enableTypeKit" (boolean)
+and "typeKitId" (String) in your page's properties.
 --%>
 <%@include file="/libs/foundation/global.jsp" %>
 <cq:defineObjects/>
