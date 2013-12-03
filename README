@@ -1,18 +1,19 @@
-README v${project.version}
+README v1.0-SNAPSHOT
 
-Craig S. Dickson (craig@craigsdickson.com)
-Ruben Reusser (rr@headwire.com)
+Andrew Powell (andrew.powell@universalmind.com)
 
 
 ==================
 ABOUT THIS PROJECT
 ==================
 
-This project was generated from the com.cqblueprints.archetypes:multi-module Maven Archetype.
+This project provides a component and a page to provide Adobe TypeKit fonts to a CQ Template.
+You must have a valid TypeKit ID to use this.  Additionally, this only includes the TypeKit
+functionality to load the fonts from TypeKit.  You must still configure your CSS to use the
+proper fonts from your kit.
 
-More information on the generation process can be found here:
-
-http://www.cqblueprints.com/xwiki/bin/view/Blue+Prints/The+CQ+Project+Maven+Archetype
+This project was inspired by and derived from the CQ Typekit integration component component
+created by David Benge (dbenge@adobe.com) at Adobe.
 
 
 =====================
@@ -20,6 +21,8 @@ BUILDING THIS PROJECT
 =====================
 
 This project is intended to work with Adobe CQ 5.5 and above.
+
+Execute the Maven Goal "install" with the auto-deploy profile active will deploy the package to your local CQ instance.  This project will generate a package to install into your CQ install.
 
 To build this project you will need access to the Adobe Maven Repository and also the CQ Blueprints Maven Repository.
 
@@ -31,11 +34,9 @@ Check the following URLs for information on connecting to these two Repositories
 
 
 ==========================
-FOR FURTHER CQ INFORMATION
+FOR FURTHER TYPEKIT INFORMATION
 ==========================
 
-For more information on recommended best practices for working with Adobe CQ:
+For more information on recommended best practices for working with Adobe TypeKit:
 
-* visit the CQ Blueprints website at http://www.cqblueprints.com
-
-* send an email to info@headwire.com
+* visit the TypeKit website at http://www.typekit.com
